@@ -48,8 +48,7 @@ const fetchContributors = (
       console.log(
         '> Material Icon Theme:',
         yellow(
-          `[${page}/${
-            lastPage ? lastPage[1] : +prevPage[1] + 1
+          `[${page}/${lastPage ? lastPage[1] : +prevPage[1] + 1
           }] Loading contributors from GitHub...`
         )
       );
@@ -95,7 +94,7 @@ const createContributorsList = (contributors: Contributor[]) => {
   return outputPath;
 };
 
-const init = async () => {
+export const init = async () => {
   const contributorsList: Contributor[] = [];
   let page = '1';
 
@@ -135,4 +134,4 @@ const init = async () => {
     });
 };
 
-init();
+// init();
