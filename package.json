@@ -28,7 +28,7 @@
     "publish": "vsce publish --no-dependencies",
     "pack": "vsce package --no-dependencies"
   },
-  "publisher": "PKief",
+  "publisher": "simonhe",
   "author": "simonhe",
   "funding": "https://github.com/sponsors/PKief",
   "sponsor": {
