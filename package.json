@@ -1,8 +1,8 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
+  "name": "material-icon-theme-simon",
+  "displayName": "Material Icon Theme simon",
   "description": "Material Design Icons for Visual Studio Code",
-  "version": "4.28.0",
+  "version": "0.0.0",
   "scripts": {
     "build": "npm run compile:dev && npm run generateJson",
     "check": "ts-node ./src/scripts/icons/checks",
@@ -23,14 +23,13 @@
     "changelog": "changelog-machine --config changelog.config.json",
     "preversion": "npm run contributors && git add images/contributors.png && npm run preview && git add images/fileIcons.png && git add images/folderIcons.png",
     "version": "npm run changelog && git add CHANGELOG.md",
-    "vscode:prepublish": "npm run lint && npm run compile && npm run package-web"
+    "vscode:prepublish": "npm run lint && npm run compile && npm run package-web",
+    "release": "bumpp && pnpm run publish",
+    "publish": "vsce publish --no-dependencies",
+    "pack": "vsce package --no-dependencies"
   },
   "publisher": "PKief",
-  "author": {
-    "name": "Philipp Kief",
-    "email": "philipp.kief@gmx.de",
-    "url": "https://pkief.github.io"
-  },
+  "author": "simonhe",
   "funding": "https://github.com/sponsors/PKief",
   "sponsor": {
     "url": "https://github.com/sponsors/PKief"
@@ -241,6 +240,8 @@
     "lodash.merge": "4.6.2"
   },
   "devDependencies": {
+    "bumpp": "^9.1.0",
+    "vsce": "^2.15.0",
     "@types/glob": "^7.2.0",
     "@types/lodash.merge": "^4.6.7",
     "@types/mocha": "^9.1.1",
