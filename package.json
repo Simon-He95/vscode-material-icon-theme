@@ -1,6 +1,6 @@
 {
   "name": "material-icon-theme-simon",
-  "displayName": "Material Icon Theme simon",
+  "displayName": "Material Icon Theme",
   "description": "Material Design Icons for Visual Studio Code",
   "version": "0.0.1",
   "scripts": {
@@ -30,20 +30,20 @@
   },
   "publisher": "simonhe",
   "author": "simonhe",
-  "funding": "https://github.com/sponsors/PKief",
+  "funding": "https://github.com/sponsors/simonhe",
   "sponsor": {
-    "url": "https://github.com/sponsors/PKief"
+    "url": "https://github.com/sponsors/simonhe"
   },
   "engines": {
     "vscode": "^1.51.0"
   },
-  "homepage": "https://github.com/PKief/vscode-material-icon-theme/blob/main/README.md",
+  "homepage": "https://github.com/simonhe/vscode-material-icon-theme-simon/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PKief/vscode-material-icon-theme.git"
+    "url": "https://github.com/simonhe/vscode-material-icon-theme-simon.git"
   },
   "bugs": {
-    "url": "https://github.com/PKief/vscode-material-icon-theme/issues"
+    "url": "https://github.com/simonhe/vscode-material-icon-theme-simon/issues"
   },
   "icon": "logo.png",
   "galleryBanner": {
@@ -83,7 +83,7 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "material-icon-theme",
+        "id": "material-icon-theme-simon",
         "label": "Material Icon Theme",
         "path": "./dist/material-icons.json",
         "_watch": true
@@ -91,52 +91,52 @@
     ],
     "commands": [
       {
-        "command": "material-icon-theme.activateIcons",
+        "command": "material-icon-theme-simon.activateIcons",
         "title": "%command.activateIcons%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleIconPacks",
+        "command": "material-icon-theme-simon.toggleIconPacks",
         "title": "%command.toggleIconPacks%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFolderTheme",
+        "command": "material-icon-theme-simon.changeFolderTheme",
         "title": "%command.changeFolderTheme%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFolderColor",
+        "command": "material-icon-theme-simon.changeFolderColor",
         "title": "%command.changeFolderColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeFileColor",
+        "command": "material-icon-theme-simon.changeFileColor",
         "title": "%command.changeFileColor%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.restoreDefaultConfig",
+        "command": "material-icon-theme-simon.restoreDefaultConfig",
         "title": "%command.restoreDefaultConfig%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleExplorerArrows",
+        "command": "material-icon-theme-simon.toggleExplorerArrows",
         "title": "%command.toggleExplorerArrows%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeOpacity",
+        "command": "material-icon-theme-simon.changeOpacity",
         "title": "%command.changeOpacity%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.toggleGrayscale",
+        "command": "material-icon-theme-simon.toggleGrayscale",
         "title": "%command.toggleGrayscale%",
         "enablement": "!isWeb"
       },
       {
-        "command": "material-icon-theme.changeSaturation",
+        "command": "material-icon-theme-simon.changeSaturation",
         "title": "%command.changeSaturation%",
         "enablement": "!isWeb"
       }
@@ -145,7 +145,7 @@
       "type": "object",
       "title": "%configuration.title%",
       "properties": {
-        "material-icon-theme.activeIconPack": {
+        "material-icon-theme-simon.activeIconPack": {
           "type": "string",
           "default": "angular",
           "description": "%configuration.activeIconPack%",
@@ -172,22 +172,22 @@
             "none"
           ]
         },
-        "material-icon-theme.files.associations": {
+        "material-icon-theme-simon.files.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.files.associations%"
         },
-        "material-icon-theme.folders.associations": {
+        "material-icon-theme-simon.folders.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.folders.associations%"
         },
-        "material-icon-theme.languages.associations": {
+        "material-icon-theme-simon.languages.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.languages.associations%"
         },
-        "material-icon-theme.folders.theme": {
+        "material-icon-theme-simon.folders.theme": {
           "type": "string",
           "default": "specific",
           "description": "%configuration.folders.theme%",
@@ -202,31 +202,31 @@
             "none"
           ]
         },
-        "material-icon-theme.folders.color": {
+        "material-icon-theme-simon.folders.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.folders.color%"
         },
-        "material-icon-theme.files.color": {
+        "material-icon-theme-simon.files.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.files.color%"
         },
-        "material-icon-theme.opacity": {
+        "material-icon-theme-simon.opacity": {
           "type": "number",
           "default": 1,
           "minimum": 0,
           "maximum": 1,
           "description": "%configuration.opacity%"
         },
-        "material-icon-theme.hidesExplorerArrows": {
+        "material-icon-theme-simon.hidesExplorerArrows": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.hidesExplorerArrows%"
         },
-        "material-icon-theme.saturation": {
+        "material-icon-theme-simon.saturation": {
           "type": "number",
           "default": 1,
           "minimum": 0,
