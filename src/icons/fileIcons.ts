@@ -151,7 +151,7 @@ export const fileIcons: FileIcons = {
         'icns',
       ],
     },
-    { name: 'javascript', fileExtensions: ['esx', 'mjs'] },
+    { name: 'javascript1', fileExtensions: ['esx', 'mjs'] },
     { name: 'react', fileExtensions: ['jsx'] },
     { name: 'react_ts', fileExtensions: ['tsx'] },
     {
@@ -249,7 +249,7 @@ export const fileIcons: FileIcons = {
       ],
     },
     {
-      name: 'typescript-def',
+      name: 'typescript-def1',
       fileExtensions: ['d.ts', 'd.cts', 'd.mts'],
     },
     { name: 'markojs', fileExtensions: ['marko'] },
@@ -1254,8 +1254,14 @@ export const fileIcons: FileIcons = {
       ],
     },
     {
-      name: 'readme',
-      fileNames: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
+      name: 'readme3',
+      fileNames: [
+        'readme.md',
+        'README_en.md',
+        'readme.rst',
+        'readme.txt',
+        'readme',
+      ],
     },
     {
       name: 'changelog',
