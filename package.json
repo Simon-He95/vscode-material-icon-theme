@@ -2,7 +2,7 @@
   "name": "material-icon-theme-simon",
   "displayName": "Material Icon Theme simon",
   "description": "Material Design Icons for Visual Studio Code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "build": "npm run compile:dev && npm run generateJson",
     "check": "ts-node ./src/scripts/icons/checks",
