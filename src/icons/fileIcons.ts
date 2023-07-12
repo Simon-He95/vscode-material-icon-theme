@@ -151,6 +151,10 @@ export const fileIcons: FileIcons = {
         'icns',
       ],
     },
+    {
+      name: 'gif',
+      fileExtensions: ['gif'],
+    },
     { name: 'javascript1', fileExtensions: ['esx', 'mjs'] },
     { name: 'react', fileExtensions: ['jsx'] },
     { name: 'react_ts', fileExtensions: ['tsx'] },
@@ -1258,6 +1262,7 @@ export const fileIcons: FileIcons = {
       fileNames: [
         'readme.md',
         'README_en.md',
+        'README_zh.md',
         'readme.rst',
         'readme.txt',
         'readme',
