@@ -100,7 +100,6 @@ export const fileIcons: FileIcons = {
         'png',
         'jpeg',
         'jpg',
-        'gif',
         'ico',
         'tif',
         'tiff',
