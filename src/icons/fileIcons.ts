@@ -2023,7 +2023,7 @@ export const fileIcons: FileIcons = {
     { name: 'dependabot', fileNames: ['dependabot.yml', 'dependabot.yaml'] },
     { name: 'pipeline', fileExtensions: ['pipeline'] },
     {
-      name: 'vite',
+      name: 'vite-1',
       fileNames: [
         'vite.config.js',
         'vite.config.mjs',
