@@ -720,7 +720,7 @@ export const fileIcons: FileIcons = {
     { name: 'vue', fileExtensions: ['vue'] },
     { name: 'semgrep', fileNames: ['semgrep.yml', '.semgrepignore'] },
     {
-      name: 'vue-config',
+      name: 'vue-config1',
       fileNames: [
         'vue.config.js',
         'vue.config.ts',
@@ -728,6 +728,10 @@ export const fileIcons: FileIcons = {
         'vetur.config.ts',
         'volar.config.js',
       ],
+    },
+    {
+      name: 'pinia',
+      fileNames: ['pinia.js', 'pinia.ts'],
     },
     {
       name: 'vuex-store',
