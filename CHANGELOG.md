@@ -3,10 +3,17 @@
  All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
  
+#### [v0.0.7](https://github.com/simonhe/vscode-material-icon-theme-simon/compare/v0.0.6...v0.0.7) 
+
+> July 19, 2023 
+
+- chore: update [`fa173d4`](https://github.com/simonhe/vscode-material-icon-theme-simon/commit/fa173d4)
+ 
 #### [v0.0.6](https://github.com/simonhe/vscode-material-icon-theme-simon/compare/v0.0.5...v0.0.6) 
 
 > July 18, 2023 
 
+- chore: release v0.0.6 [`789d77c`](https://github.com/simonhe/vscode-material-icon-theme-simon/commit/789d77c)
 - chore: update [`3ce7b0c`](https://github.com/simonhe/vscode-material-icon-theme-simon/commit/3ce7b0c)
 - chore: update [`ec380c0`](https://github.com/simonhe/vscode-material-icon-theme-simon/commit/ec380c0)
  
