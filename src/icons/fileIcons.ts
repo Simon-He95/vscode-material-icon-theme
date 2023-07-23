@@ -2097,7 +2097,6 @@ export const fileIcons: FileIcons = {
     {
       name: 'tsconfig1',
       fileNames: ['tsconfig.json'],
-      fileExtensions: ['tsconfig.json'],
     },
     {
       name: 'tsconfig',
